@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Lumière Jewelry</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container flex justify-between align-center">
+            <div class="logo">
+                <a href="index.html">LUMIÈRE</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="product.html">Featured</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions flex align-center">
+                <a href="#" class="cart-btn" aria-label="Cart">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-count">2</span>
+                </a>
+                <a href="index.html#newsletter" class="btn-outline">Subscribe</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you. Visit our boutique or send us a message.</p>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="container contact-wrapper">
+        <div class="contact-info">
+            <h2>Visit Our Boutique</h2>
+            <p>Experience our collections in person at our flagship store.</p>
+
+            <h3>Address</h3>
+            <p>123 Luxury Avenue<br>Upper East Side, New York, NY 10021</p>
+
+            <h3>Hours</h3>
+            <p>Mon - Sat: 10:00 AM - 8:00 PM<br>Sun: 11:00 AM - 6:00 PM</p>
+
+            <h3>Contact</h3>
+            <p>Phone: +1 (555) 123-4567<br>Email: concierge@lumiere.com</p>
+
+            <div style="margin-top: 2rem;">
+                <img src="images/hero_bg.svg" alt="Map Placeholder"
+                    style="width: 100%; height: 200px; object-fit: cover; opacity: 0.5;">
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" list="subjects">
+                    <datalist id="subjects">
+                        <option value="General Inquiry">
+                        <option value="Appointment Request">
+                        <option value="Custom Order">
+                        <option value="Press">
+                    </datalist>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container grid footer-grid">
+            <div class="footer-brand">
+                <h4>LUMIÈRE</h4>
+                <p>Illuminating elegance since 2026.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="product.html">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>123 Luxury Ave, New York, NY</p>
+                <p>contact@lumiere.com</p>
+                <p>+1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Lumière Jewelry. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
